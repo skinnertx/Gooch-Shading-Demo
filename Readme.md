@@ -2,12 +2,6 @@
 
 ![Gooch Demo](image.png)
 
-Team Name: Misfit Toys I
-
-Team Members:
-	- Michael (Gus) Caldwell 
-	- Abdulrahman (Abdo) Alshahrani
-
 Compiled for Windows on Visual Studio 17.
 
 ## What is this?
