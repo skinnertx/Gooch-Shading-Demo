@@ -8,6 +8,8 @@ Compiled for Windows on Visual Studio 17.
 
 This is a rendering engine that can render .obj models in various ways. The primary method is non-photorealistic rendering as described in [this paper](https://www.cs.princeton.edu/courses/archive/fall00/cs597b/papers/gooch98.pdf), more commonly known as gooch shading. The primary option is warm/cool shading as described in the paper, but we also implemented other shaders that render the object by z-depth, as well as a shader that does kernel-based edge detection. All modes can be toggled between using various keybinds as described on the control screen (pressing E).
 
+For more specific implementation information, please view the explanation report.
+
 ## How to use
 
 The folder labeled 'final executable' contains the final executable compiled for windows, along with all required assets.
