@@ -1,18 +1,25 @@
-Computer Graphics Final Project!
+# Computer Graphics Gooch Shading Demo
+
+![Gooch Demo](image.png)
 
 Team Name: Misfit Toys I
 
 Team Members:
 	- Michael (Gus) Caldwell 
-		mac22334
 	- Abdulrahman (Abdo) Alshahrani
-		ama8347
 
 Compiled for Windows on Visual Studio 17.
 
-Download the folder final executable for testing! It contains the executable, with all required assets.
+## What is this?
 
-Press E for controls!
+This is a rendering engine that can render .obj models in various ways. The primary method is non-photorealistic rendering as described in [this paper](https://www.cs.princeton.edu/courses/archive/fall00/cs597b/papers/gooch98.pdf), more commonly known as gooch shading. The primary option is warm/cool shading as described in the paper, but we also implemented other shaders that render the object by z-depth, as well as a shader that does kernel-based edge detection. All modes can be toggled between using various keybinds as described on the control screen (pressing E).
+
+## How to use
+
+The folder labeled 'final executable' contains the final executable compiled for windows, along with all required assets.
+Once loaded, use wasd to move around, mouse to look around.
+
+Press E to list all controls.
 
 ## License
 >The MIT License (MIT)
